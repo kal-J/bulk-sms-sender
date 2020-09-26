@@ -1,0 +1,43 @@
+section.call_to_action {
+  position: absolute;
+  z-index: 10;
+  top: 35%;
+  left: 0;
+  right: 0;
+
+  div.send_now {
+    display: flex;
+    justify-content: center;
+
+    button {
+      background-color: #ff4500;
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      font-size: larger;
+      font-weight: bold;
+      padding: 1em 2em;
+    }
+  }
+}
+
+// Media queries
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+
+  section.call_to_action {
+    div {
+      button {
+        font-size: large;
+        padding: 0.8em;
+      }
+    }
+  }
+}

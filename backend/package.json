@@ -1,0 +1,20 @@
+{
+  "name": "ug-bulk-sms",
+  "description": "backend",
+  "scripts": {
+    "start": "node index"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.10.0",
+    "twilio": "^3.49.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "private": true
+}

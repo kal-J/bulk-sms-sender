@@ -1,0 +1,86 @@
+$primary-color: #ff4500;
+$variant : #191818;
+
+.footer_section {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 12;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 10px;
+  background-color: #191818;
+
+  h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ff4500;
+  }
+
+  .content {
+    width: 100%;
+
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 10px 0 0 0;
+
+      span {
+        color: #fff;
+      }
+
+      li {
+        margin: 0 0.5em;
+
+        a {
+          color: #fff;
+          font-size: small;
+        }
+
+        a:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .playstore {
+      width: 130px;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .description {
+      p {
+        color: #fff;
+        font-size: small;
+      }
+    }
+  }
+}
+
+// Media queries
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+}
