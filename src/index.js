@@ -16,7 +16,7 @@ window.onload = () => {
     maximum-scale=1.0,
     user-scalable=0`
   );
-  initialWindowHeight = `${document.documentElement.offsetHeight} px`;
+  initialWindowHeight = `${document.documentElement.offsetHeight}px`;
 };
 
 window.onresize = () => {
