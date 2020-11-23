@@ -28,7 +28,7 @@ window.onresize = () => {
 
   metaViewport.setAttribute(
     'content',
-    `height=${initialWindowHeight}px,
+    `height=${initialWindowHeight},
     width=device-width,
     initial-scale=1.0`
   );
