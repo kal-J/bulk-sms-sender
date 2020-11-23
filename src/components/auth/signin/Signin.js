@@ -1,7 +1,8 @@
 import React, { useContext, useState } from 'react';
 import './signin.scss';
 import { StoreContext } from '../../../context';
-import firebase from 'firebase';
+import firebase from 'firebase/app';
+import 'firebase/auth';
 import { withRouter } from 'react-router-dom';
 import schema from './validation';
 import Loading from '../../Loading';
